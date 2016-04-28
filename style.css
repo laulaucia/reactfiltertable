@@ -1,0 +1,22 @@
+.chip{
+	margin-left: 3px;
+}
+
+.tags {
+	text-align: right;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+.titles{
+	padding-left: 10px;
+	padding-top: 10px;
+	text-align: left;
+}
+
+.filter {
+	padding: 4px;
+}
+
+.filterBar{
+	
+}
