@@ -204,59 +204,59 @@ var response = {
 	resources:[{
 			title: "Apple",
 			xid: "x37653476",
-			tags: ["Whitepaper", "App Security", "Cloud Perimeter"]
+			tags: ["Free", "Snacks", "Cheetos"]
 		},{
 			title: "Baker",
 			xid: "x364",
-			tags: ["Whitepaper", "App Security", "Cloud Perimeter"]
+			tags: ["Free", "Snacks", "Cheetos"]
 		},{
 			title: "Cat",
 			xid: "x3487345",
-			tags: ["Blog", "App Security", "Cloud Perimeter"]
+			tags: ["Blog", "Snacks", "Cheetos"]
 		},{
 			title: "Dandelion",
 			xid: "x37653471",
-			tags: ["Blog", "App Security", "Datasheet"]
+			tags: ["Blog", "Snacks", "Awesome"]
 		},{
 			title: "Elephant",
 			xid: "x3642",
-			tags: ["Analysis Report", "App Security", "Cloud Perimeter"]
+			tags: ["Cool Beans", "Snacks", "Cheetos"]
 		},{
 			title: "Flotsam",
 			xid: "x34873453",
-			tags: ["Analysis Report", "App Security", "Datasheet"]
+			tags: ["Cool Beans", "Snacks", "Awesome"]
 		},{
 			title: "Gerbil",
 			xid: "x376534764",
-			tags: ["Blog", "App Security", "Mobile Endpoint Security"]
+			tags: ["Blog", "Snacks", "All of the things"]
 		},{
 			title: "Howistzer",
 			xid: "x3645",
-			tags: ["Video", "App Security", "Mobile Endpoint Security"]
+			tags: ["Video", "Snacks", "All of the things"]
 		},{
 			title: "Inky",
 			xid: "x34873456",
-			tags: ["Blog", "Mobile Endpoint Security", "Cloud Perimeter"]
+			tags: ["Blog", "All of the things", "Cheetos"]
 		},{
 			title: "Juice",
 			xid: "x376534767",
-			tags: ["Video", "Mobile Endpoint Security", "Cloud Perimeter"]
+			tags: ["Video", "All of the things", "Cheetos"]
 		},{
 			title: "Kangaroo",
 			xid: "x3648",
-			tags: ["Blog", "App Security", "Threat Intelligence"]
+			tags: ["Blog", "Snacks", "Threat Intelligence"]
 		},{
 			title: "shdgjhsdgfjsdhfgsdkjhgfsdjhfgsdkjh",
 			xid: "x34873459",
-			tags: ["Blog", "App Security", "Threat Intelligence"]
+			tags: ["Blog", "Snacks", "Threat Intelligence"]
 		}],
 	filters: [{
-			title: "Mobile Endpoint Security",
+			title: "All of the things",
 			type: "topics",
 			xid: 1,
 			checked:false
 		},{
-			title: "App Security",
+			title: "Snacks",
 			type: "topics",
 			xid: 2,
 			checked: false
@@ -266,22 +266,22 @@ var response = {
 			xid: 3,
 			checked: false
 		},{
-			title: "Cloud Perimeter",
+			title: "Cheetos",
 			type: "topics",
 			xid: 4,
 			checked: false
 		},{
-			title: "Whitepaper",
+			title: "Free",
 			type: "Resouce Type",
 			xid: 5,
 			checked: false
 		},{
-			title: "Datasheet",
+			title: "Awesome",
 			type: "Resouce Type",
 			xid: 6,
 			checked: false
 		},{
-			title: "Analysis Report",
+			title: "Cool Beans",
 			type: "Resouce Type",
 			xid: 7,
 			checked: false
