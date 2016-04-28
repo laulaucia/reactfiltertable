@@ -216,7 +216,7 @@ var response = {
 		},{
 			title: "Dandelion",
 			xid: "x37653471",
-			tags: ["Blog", "App Security", "Cloud Perimeter"]
+			tags: ["Blog", "App Security", "Datasheet"]
 		},{
 			title: "Elephant",
 			xid: "x3642",
@@ -224,7 +224,7 @@ var response = {
 		},{
 			title: "Flotsam",
 			xid: "x34873453",
-			tags: ["Analysis Report", "App Security", "Cloud Perimeter"]
+			tags: ["Analysis Report", "App Security", "Datasheet"]
 		},{
 			title: "Gerbil",
 			xid: "x376534764",
@@ -269,12 +269,12 @@ var response = {
 			title: "Cloud Perimeter",
 			type: "topics",
 			xid: 4,
-			checked: true
+			checked: false
 		},{
 			title: "Whitepaper",
 			type: "Resouce Type",
 			xid: 5,
-			checked: true
+			checked: false
 		},{
 			title: "Datasheet",
 			type: "Resouce Type",
@@ -284,7 +284,7 @@ var response = {
 			title: "Analysis Report",
 			type: "Resouce Type",
 			xid: 7,
-			checked: true
+			checked: false
 		},{
 			title: "Video",
 			type: "Resouce Type",
