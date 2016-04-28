@@ -11,7 +11,7 @@ var ResourceNode = React.createClass({
 			tags.push(<div className="chip" key={i} >{this.props.resource.tags[i]}</div>);
 		}
 		return (
-			<div className="teal lighten-4 ">
+			<div className="purple lighten-4 ">
 				<h5 className="titles">{this.props.resource.title}</h5>
 				<div className="tags">{tags}</div>
 			</div>
@@ -87,7 +87,7 @@ var SearchBar = React.createClass({
 				value={this.props.filterText} 
 				onChange={this.handleChange} 
 				type="search" 
-				placeholder="Search through resources" 
+				placeholder="Search through these things" 
 				className="validate"/>
 		</div>
 		);
@@ -179,7 +179,7 @@ var SearchTable = React.createClass({
 	render: function(){
 		return(
 			<div className="container">
-				<h2 className="center" >Resources</h2>
+				<h2 className="center" >Filter this!</h2>
 				<div className="row">
 					<div className="col m6 s12" >
 						<form id="filterform">
@@ -244,11 +244,11 @@ var response = {
 		},{
 			title: "Kangaroo",
 			xid: "x3648",
-			tags: ["Blog", "Snacks", "Threat Intelligence"]
+			tags: ["Blog", "Snacks", "Danger"]
 		},{
 			title: "shdgjhsdgfjsdhfgsdkjhgfsdjhfgsdkjh",
 			xid: "x34873459",
-			tags: ["Blog", "Snacks", "Threat Intelligence"]
+			tags: ["Blog", "Snacks", "Danger"]
 		}],
 	filters: [{
 			title: "All of the things",
@@ -261,7 +261,7 @@ var response = {
 			xid: 2,
 			checked: false
 		},{
-			title: "Threat Intelligence",
+			title: "Danger",
 			type: "topics",
 			xid: 3,
 			checked: false
